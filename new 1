@@ -1,0 +1,5 @@
+Windows Forms
+.cs = classe que define comportamento do formulario
+.Designer = classe que contem os componentes do formulario (botões, cx texto, labels), tbem pode criar e remover formulario (InitializeComponent e Dispose)
+.resx = arquivo de resources do formulario (recursos do formulario como strings, imagens, icones, etc)
+
