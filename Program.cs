@@ -7,21 +7,17 @@ using System.Windows.Forms;
 
 namespace TesteAgapys
 {
-    class Program
+    static class Program
     {
         /// <summary>
         /// Ponto de entrada principal para o aplicativo.
         /// </summary>
-        //[STAThread]
-        static void Main(string[] args)
+        [STAThread]
+        static void Main()
         {
-            /*Application.EnableVisualStyles();
+            Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Form1());*/
-
-            Console.WriteLine("Teste de Msg no body");
-            Console.Read();
-            
+            Application.Run(new Form1());
         }
     }
 }
