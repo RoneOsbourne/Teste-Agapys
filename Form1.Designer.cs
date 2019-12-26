@@ -99,7 +99,7 @@
             this.btnEncerrar.TabIndex = 2;
             this.btnEncerrar.Text = "Encerrar";
             this.btnEncerrar.UseVisualStyleBackColor = true;
-            this.btnEncerrar.Click += new System.EventHandler(this.btnEncerrar_Click);
+            this.btnEncerrar.Click += new System.EventHandler(this.BtnEncerrar_Click);
 
             this.btnArquivo.Location = new System.Drawing.Point(549, 52);
             this.btnArquivo.Name = "btnArquivo";

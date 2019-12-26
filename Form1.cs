@@ -57,7 +57,7 @@ namespace TesteAgapys
             lblResultados.Text = lbResultado.Items.Count.ToString() + " ocorrências";
         }
 
-        private void btnEncerrar_Click(object sender, EventArgs e)
+        private void BtnEncerrar_Click(object sender, EventArgs e)
         {
             if (MessageBox.Show("Deseja Encerrar ?", "Encerrar", MessageBoxButtons.YesNo)
                  == DialogResult.Yes)
